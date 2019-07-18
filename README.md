@@ -1,5 +1,5 @@
 # WHMCS-manual-registrar-module
-This module can be used for any TLDs that have no integrated registrar; will create a to do item for any required operation.
+This module can be used in WHMCS for any TLDs that have no integrated registrar; will create a to do item for any required operation.
 
 To install:
 - copy all the files in /your-whmcs/modules/registrars/manual
