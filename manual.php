@@ -50,7 +50,7 @@ function manual_GetNameservers($params) {
     global $CONFIG;
     $namesrv = dns_get_record($params["sld"].".".$params["tld"], DNS_NS);
     return array(
-            'success' => true,
+        
             'ns1' => $namesrv[0][target],
             'ns2' => $namesrv[1][target],
             'ns3' => $namesrv[2][target],
